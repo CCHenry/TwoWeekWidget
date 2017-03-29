@@ -8,11 +8,18 @@
     android:fitsSystemWindows="true"
     tools:context="com.example.ccripplebutton.MainActivity">
 <com.example.ccripplebutton.RippleButton
-    android:layout_width="100dp"
-    android:layout_height="100dp"
-    android:text="asdas"
-    android:background="#204bd9"
-    android:id="@+id/rippleBtn"/>
+    android:layout_width="200dip"
+    android:layout_height="wrap_content"
+    android:textSize="30sp"
+    android:text="提交按钮"
+    android:textColor="@android:color/white"
+    android:gravity="center"
 
+    android:id="@+id/rippleBtn"/>
+<Button
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+
+    android:layout_alignParentBottom="true"/>
 
 </RelativeLayout>
